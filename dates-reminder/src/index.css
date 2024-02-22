@@ -1,0 +1,26 @@
+.color-body {
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+.font {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+}
+.rectangle {
+  /* height: 600px; */
+  border-radius: 15px;
+  background-color: #ffffff;
+  box-shadow: 1px 4px 4px 1px rgba(85,85, 85, 0.24);
+}
+
+.dates-count {
+  color: #555555;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.img-avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
