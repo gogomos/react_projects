@@ -7,7 +7,7 @@ const DatesListe = ({person}) => {
             <div className="rectangle p-3">
             {person.length ? (person.map((item) => {
               return (
-                <div className="d-flex border-bottom my-2">
+                <div key = {item.id} className="d-flex border-bottom my-2">
                   <img className="img-avatar" src= {item.img} />
                   <div className="px-3">
                     <p className="d-inline fs-5">{item.name}</p>

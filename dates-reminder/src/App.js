@@ -3,7 +3,7 @@ import { person } from "./data";
 import DatesCount from "./components/DatesCount";
 import DatesListe from "./components/DatesListe";
 import DatesAction from "./components/DatesAction";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 function App() {
   const [personData, setPersonData] = useState(person)
   const onDelete = () => {
@@ -13,6 +13,9 @@ function App() {
   const onDisplay = () => {
     setPersonData(person);
   };
+  useEffect(() => {
+    setPersonData([])
+  }, [])
   return (
     <div className="font color-body">
       <Container className="py-5">

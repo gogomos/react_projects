@@ -6,6 +6,6 @@ export const person = [{ id: '1', name:"oussama", date:"5pm", img:"images.jpg"},
   { id: '6', name:"oussama", date:"9pm", img:"images.jpg"},
   { id: '7', name:"aymen", date:"9pm", img:"images.jpg"},
   { id: '8', name:"souad", date:"9pm", img:"images.jpg"},
-  { id: '8', name:"souad", date:"9pm", img:"images.jpg"}
+  { id: '9', name:"souad", date:"9pm", img:"images.jpg"}
 
 ]
