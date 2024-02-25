@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ .title {
+  font-family: fantasy;
+  font-size: 30px;
+  font-weight: blod;
+  letter-spacing: 0;
+  line-height: 64px;
+  color: rgb(27 101 101);
+ }
+.underline {
+  height: 4px;
+  width: 200px;
+  border-radius: 10px;
+  border: 2px solid #b45b35;
+  background-color: #b45b35;
+}
+
+.btn {
+  color: black;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 24px;
+ 
+}
+.btn:hover {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 24px;
+  border-radius: 11px;
+  border: none;
+  background-color: #b45b35 !important; /* Add !important */
+}
+
+.img-item {
+  width: 252px !important;
+  /* height: 180px; */
+  object-fit: cover;
+  border-radius: 5px;
+}
+.item-description {
+  color: #8C8C8C;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.item-title {
+  color: #555555;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
+
+.item-price {
+  color: #b45b35;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 20px;
+}
